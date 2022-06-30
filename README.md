@@ -112,7 +112,7 @@ AP can then be defined as the area under the interpolated precision-recall curve
 The calculation of AP only involves one class. However, in object detection, there are usually $K > 1$ classes.<br>
 For this reason, ***Mean Average Precision (mAP)*** is introduced, defined as the mean of AP across all the K classes:
 
-$\qquad\qquad mAP = \frac{1}{K}$ $\sum _{i=1}^{K} AP_i$
+$\qquad\qquad mAP = \frac{1}{K}$ $\sum$ $_{i=1}^{K} AP_i$
 
 -----------------------------------------
 
