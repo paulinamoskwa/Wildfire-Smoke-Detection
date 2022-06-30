@@ -192,7 +192,8 @@ The idea of ROI projection is that we get the coordinates of the bounding box fr
 <img src='./Miscellaneous/fast_rcnn_ratio.png' width='600'/>
 </p>
 
-FInally, we also get rid of the last pooling layer. ROI Pooling is applied to the feature maps of the last convolution layer.<br>
+Finally, we also get rid of the last pooling layer.<br>
+ROI Pooling is applied to the feature maps of the last convolution layer.<br>
 The changes from R-CNN is that we got rid of the SVM classifier and we use Softmax instead.<br>
 The result of Fast R-CNN is an exponential increase in terms of speed. In terms of accuracy, there’s not much improvement.
 
