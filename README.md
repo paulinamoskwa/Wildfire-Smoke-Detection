@@ -137,7 +137,8 @@ The structure of the Region-based Convolutional Neural Network (R-CNN) is the fo
 #### **1. Region proposals**
 The problem the R-CNN system tries to solve it is to locate objects in an image (object detection). What can we do to solve this? We could start with a sliding window approach. When using this method, we just go over the whole image with different sized rectangles and look at those smaller images in a brute-force-method. The problem is, we will have a giant number of smaller images to look at. To our luck, region proposals have been introduced. Region proposals are just smaller parts of the original image, that we think could contain the objects we are looking for.
 
-There are different region proposal algorithms. Tipically, the ***selective search method*** is used to generate region proposals.<br>
+There are different region proposal algorithms.<br>
+Tipically, the ***selective search method*** is used to generate region proposals.<br>
 Algorithm of selective search:
 
 1. Generate initial sub-segmentation of input image based on similarities of the regions (color, texture, size, filling, etc.).
