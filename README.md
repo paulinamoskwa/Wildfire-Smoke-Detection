@@ -203,8 +203,7 @@ The result of Fast R-CNN is an exponential increase in terms of speed. In terms 
 
 Even with all these advancements, there is still one remaining bottleneck in the Fast R-CNN process: the region proposer. The first step in detecting the objects is to generate a set of potential bounding boxes around the object. In Fast R-CNN, the region proposals are created using selective search, a pretty slow process (found to be the bottleneck of the overall object detection process). Thus, there is a need for a better technique, where it gives less than 2000 region proposals, faster than selective search, as accurate as selective search or better, and should be able to propose overlapping ROIs with different aspect ratios and scales.
 
-From Fast R-CNN, we know that region proposals depend on features of the image that were already calculated with the forward pass of the CNN.<br> ***So why don’t we reuse those same CNN results for region proposals instead of running a separate selective search algorithm?***<br>
-This translates with eliminating the selective search algorithm and letting the network learn the region proposals.
+From Fast R-CNN, we know that region proposals depend on features of the image that were already calculated with the forward pass of the CNN. ***So why don’t we reuse those same CNN results for region proposals instead of running a separate selective search algorithm?*** This translates with eliminating the selective search algorithm and letting the network learn the region proposals.
 
 The structure of the Faster Region-based Convolutional Neural Network (Faster R-CNN) is the following:
 
