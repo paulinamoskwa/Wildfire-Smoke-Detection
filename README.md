@@ -224,10 +224,10 @@ In conclusion, Faster R-CNN results to be much faster than its predecessors. The
 -----------------------------------------
 
 ## 📰 **Resources**
-[**1**] R-CNN - https://medium.com/@selfouly/r-cnn-3a9beddfd55a<br>
-[**2**] Fast R-CNN and Faster R-CNN: https://towardsdatascience.com/understanding-fast-r-cnn-and-faster-r-cnn-for-object-detection-adbb55653d97<br>
-[**3**] R-CNN vs. Fast R-CNN vs. Faster R-CNN: https://jhui.github.io/2017/03/15/Fast-R-CNN-and-Faster-R-CNN/<br>
-[**4**] In-depth - Region Proposal Network (RPN) - pt. 1 - https://www.youtube.com/watch?v=po59qI5LJGU&ab_channel=Cogneethi<br>
-[**5**] In-depth - Region Proposal Network (RPN) - pt. 2 - https://www.youtube.com/watch?v=AVTs_N8YhBw&ab_channel=Cogneethi<br>
-[**6**] In-depth - Region Proposal Network (RPN) - pt. 3 - https://www.youtube.com/watch?v=QvoGKKr987w&ab_channel=Cogneethi<br>
-[**7**] Metrics https://blog.zenggyu.com/en/post/2018-12-16/an-introduction-to-evaluation-metrics-for-object-detection/ <br>
+[**1**] R-CNN<br>https://medium.com/@selfouly/r-cnn-3a9beddfd55a<br>
+[**2**] Fast R-CNN and Faster R-CNN<br>https://towardsdatascience.com/understanding-fast-r-cnn-and-faster-r-cnn-for-object-detection-adbb55653d97<br>
+[**3**] R-CNN vs. Fast R-CNN vs. Faster R-CNN<br>https://jhui.github.io/2017/03/15/Fast-R-CNN-and-Faster-R-CNN/<br>
+[**4**] In-depth - Region Proposal Network (RPN) - pt. 1<br>https://www.youtube.com/watch?v=po59qI5LJGU&ab_channel=Cogneethi<br>
+[**5**] In-depth - Region Proposal Network (RPN) - pt. 2<br>https://www.youtube.com/watch?v=AVTs_N8YhBw&ab_channel=Cogneethi<br>
+[**6**] In-depth - Region Proposal Network (RPN) - pt. 3<br>https://www.youtube.com/watch?v=QvoGKKr987w&ab_channel=Cogneethi<br>
+[**7**] Metrics<br>https://blog.zenggyu.com/en/post/2018-12-16/an-introduction-to-evaluation-metrics-for-object-detection/ <br>
