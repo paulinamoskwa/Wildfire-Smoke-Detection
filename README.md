@@ -91,7 +91,7 @@ $\quad\qquad\qquad Recall = \frac{TP}{TP \hspace{2pt}+\hspace{2pt} FN} = \frac{T
 
 A model is said to be a good model if it has high precision and high recall. A perfect model has zero FNs and zero FPs (that is, precision=1 and recall=1). However, often, attaining a perfect model is not feasible.
 
-As we saw above, the values of TP, FP and FN depend on the value of the threshold $\alpha$. Consequently, also the precision and recall metrics vary as the threshold $\alpha$ varies. For every possible $\alpha$ between 0 and 1, it is possible to obtain a pair of [precision, recall] points. It is possible then to plot all the points in a precision-recall plane by obtaining the so-called Precision-Recall (PR) curve. For a good model, precision and recall stays high even when confidence score is varied.
+As we saw above, the values of TP, FP and FN depend on the value of the threshold <span>$\alpha$</span>. Consequently, also the precision and recall metrics vary as the threshold <span>$\alpha$</span> varies. For every possible $\alpha$ between 0 and 1, it is possible to obtain a pair of [precision, recall] points. It is possible then to plot all the points in a precision-recall plane by obtaining the so-called Precision-Recall (PR) curve. For a good model, precision and recall stays high even when confidence score is varied.
 
 <p align="center">
 <img src='./Miscellaneous/precision_recall.gif' width='300'/><br>
